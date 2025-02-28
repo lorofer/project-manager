@@ -4,6 +4,7 @@
   border: 2px rgba(28, 29, 34, 0.08) solid;
   border-radius: 12px;
   padding: 16px;
+  cursor: pointer;
 
   .task-card-content {
     width: 100%;
@@ -17,10 +18,12 @@
       .task-title {
         font-size: 16px;
         line-height: 16px;
+        font-weight: 700;
       }
 
       .task-description {
         font-size: 14px;
+        font-weight: 500;
         color: rgba(28, 29, 34, 0.5);
         margin-top: 6px;
         overflow: hidden;
@@ -37,14 +40,19 @@
 
       p {
         font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
         color: rgba(28, 29, 34, 0.5);
       }
 
       .progress-label {
         display: flex;
+        align-items: center;
 
         .progress-icon {
           opacity: 0.5;
+          width: 12px;
+          height: 10px;
         }
 
         p {
@@ -84,6 +92,7 @@
 
       p {
         font-size: 14px;
+        font-weight: 600;
         color: #888DA7;
         line-height: 14px;
       }
