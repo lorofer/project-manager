@@ -14,6 +14,7 @@ export default function Dashboard({tasks}) {
                 <div className="tasks-list">
                     {toDoTasks.map(task =>
                         <Task
+                            key={task.id}
                             task={task}
                         />
                     )}
@@ -35,6 +36,7 @@ export default function Dashboard({tasks}) {
                 <div className="tasks-list">
                     {doneTasks.map(task =>
                         <Task
+                            key={task.id}
                             task={task}
                         />
                     )}
